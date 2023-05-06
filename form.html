@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback Form</title>
-
+    <link rel="stylesheet" type="text/css" href="./form.css">
 </head>
 <body>
     <header>
         <h1>Feedback form by the ATL Students</h1>
-
     </header>
     <section>
         <form action="#">
@@ -23,19 +22,24 @@
             <label for="Class">Select your  Class:</label>
             <select id="Class" name="Class">
                 <option value="VI">VI</option>
-                <option value="VII">VI</option>
-                <option value="VIII">VI</option>
-                <option value="IX">VI</option>
-
+                <option value="VII">VII</option>
+                <option value="VIII">VIII</option>
+                <option value="IX">IX</option>
             </select>
             <br><br>
             <label for="section">Select your section:</label>
-            <input type="radio" value="A" id="section" placeholder="A">
-            <label for="A" >A</label>
-            <input type="radio" value="B">
-            <label for="A" >B</label>
-            <input type="radio" value="C">
-            <label for="A" >C</label>
+            <div class="section_box">
+            <input type="radio" id="A" name="age" value="A">
+            <label for="A">A</label>
+            </div>
+            <div class="section_box">
+            <input type="radio" id="B" name="age" value="B">
+            <label for="B">B</label>
+            </div>
+            <div class="section_box">
+            <input type="radio" id="C" name="age" value="C">
+            <label for="C">C</label>
+            </div>
             <br><br>
             <label for="x">Experience Level:</label>
             <select id="x">
@@ -44,11 +48,12 @@
                 <option value="Good">Good</option>
             </select>
             <br><br>
-            <textarea name="message" rows="10" cols="30" required placeholder="enter your feedback"></textarea>
+            <textarea name="message" rows="10" cols="30" required placeholder="Enter your feedback"></textarea>
             <br><br>
             <input type="submit" value="Submit the form">
             <br><br>
-            <a href="/index.html">Home </a>
+            
+            <a href="./index.html">Home </a>
             
         </form>
     </section>
