@@ -114,4 +114,12 @@ var a=['Sanohit','Gurtej','Nikhil','Pranav','Chonnu'];
 //     console.log(element +": "+index + array );
 // })
 
-   
+
+//map method of arraay
+// const arr=[1,2,4,9,12,15];
+// let newArr=arr.map((curEle,index,arr)=>{
+//     return `Index no ${index} having value ${curEle} belong to the array${arr}`
+// })
+
+// console.log(newArr);
+
